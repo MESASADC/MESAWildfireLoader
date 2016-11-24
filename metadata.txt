@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=MESA Wildfire Loader
+qgisMinimumVersion=2.0
+description=This plugin loads Active Wildfire text files to the Layers Panel
+version=1.1
+author=Thembani Moitlhobogi, MESA SADC THEMA
+email=taxmanyana@gmail.com
+
+about=This plugin was built as an assignment of the MESA Distance Education course of Script_02_V1 English (31 October - 21 November 2016). The plugin imports active wildfire text files to the Layers Panel. By: Thembani Moitlhobogi MESA SADC THEMA
+
+tracker=github.com
+repository=http://github.com/MESASADC/MESAWildfireLoader
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=MESA,Wildfire,MODIS,WF_ABBA,VIIRS
+
+homepage=http://github.com/MESASADC/MESAWildfireLoader
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
